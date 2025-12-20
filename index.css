@@ -2,6 +2,15 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/*
+This section is for Home page css
+*/
+
+
+/*
+This section is for Product page css
+*/
 .product-background{
     background-color: #2544a8;
     
@@ -11,29 +20,44 @@ body {
     text-align: center;
     padding: 25px;
     margin: 4px;
-}
-.card img {
-    width: 50%;
-    height: 100px;
-    object-fit: cover;
-    display: block;
+    font-size: 32px;
+    font-weight: bold;
 }
 
-/* Card Content */
-.card-content {
-    padding: 16px;
-    text-align: center;
+.card{
+    width: 300px;
+    background: #ffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0,15);
+    overflow: hidden;
+}
+.card img{
+    width: 270px;
+    height: auto;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    align-items: center;
+    margin: 10px;
+}
+.card-content{
+    padding: 15px;
+}
+.card-content h3{
+    margin: 0 0px 10px;
+} 
+.card-content p{
+    color: #555;
+    font-size: 16px;
 }
 
-.card-content h3 {
-    font-size: 20px;
-    color: #222;
-    margin-bottom: 8px;
-    font-weight: 600;
+.product-lists {
+    display: flex;
+    flex-direction: row;             /* space between cards */
 }
 
-.card-content p {
-    font-size: 14px;
-    color: #666;
-    line-height: 1.5;
+.product-lists .card {
+    background-color: #e7eaf1;
+    padding: 20px;
+    flex: 1;                /* cards take equal width */
 }
