@@ -2,3 +2,38 @@ body {
     margin: 0;
     padding: 0;
 }
+.product-background{
+    background-color: #2544a8;
+    
+}
+.product-title{
+    color:aliceblue;
+    text-align: center;
+    padding: 25px;
+    margin: 4px;
+}
+.card img {
+    width: 50%;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Card Content */
+.card-content {
+    padding: 16px;
+    text-align: center;
+}
+
+.card-content h3 {
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
