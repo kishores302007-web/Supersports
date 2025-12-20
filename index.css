@@ -14,7 +14,7 @@ This section is for Home page css
 
         /* Header */
         header {
-            background-color: #0000008f;
+            background-color: #0000007c;
             color: white;
             padding: 20px;
             text-align: center;
@@ -47,7 +47,7 @@ This section is for Home page css
             font-size: 22px;
             font-weight: bold;
             text-align: left;
-            color: #9d18f5b0;
+            color: white;
         }
         .nav-links {
             list-style: none;
