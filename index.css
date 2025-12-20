@@ -6,6 +6,61 @@ body {
 /*
 This section is for Home page css
 */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background-color: #2544a8;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* super Section */
+        .super {
+            padding: 50px;
+            text-align: center;
+            background-color: white;
+        }
+        .super h1 {
+            margin-bottom: 10px;
+            color: #09072b;
+        }
+        .super p {
+            font-size: 18px;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #222;
+            padding: 15px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo {
+            color: #fff;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+        .nav-links li a:hover {
+            color: #00c3ff;
+        }
 
 
 /*
