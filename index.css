@@ -33,6 +33,10 @@ This section is for Home page css
         .super p {
             font-size: 18px;
         }
+        .super img{
+            width : auto;
+            height : auto;
+        }
 
         /* Navbar */
         .navbar {
@@ -63,10 +67,7 @@ This section is for Home page css
         .nav-links li a:hover {
             color: #00c3ff;
         }
-        .super img{
-            width : 400px;
-            height : auto;
-        }
+
 
 
 /*
