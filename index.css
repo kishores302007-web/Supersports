@@ -36,6 +36,7 @@ This section is for Home page css
         .super img{
             width : auto;
             height : auto;
+            display: flex;
         }
 
         /* Navbar */
